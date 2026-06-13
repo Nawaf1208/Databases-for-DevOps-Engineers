@@ -72,3 +72,61 @@ $\color{green}{\text{Answer}}$
 Not much information provided as to why it became a bottleneck and what is current architecture, so one general approach could be to reduce the load on your database by moving frequently-accessed data to in-memory structure.
 
 </details>
+
+<details>
+<summary><b><i>6.What is a connection pool?</i></b></summary>
+
+$\color{green}{\text{Answer}}$
+
+Connection Pool is a cache of database connections and the reason it's used is to avoid an overhead of establishing a connection for every query done to a database.
+
+</details>
+
+<details>
+<summary><b><i>7.What is a connection leak?</i></b></summary>
+
+$\color{green}{\text{Answer}}$
+
+A connection leak is a situation where database connection isn't closed after being created and is no longer needed.
+
+</details>
+
+<details>
+<summary><b><i>8.What is Table Lock?</i></b></summary>
+
+$\color{green}{\text{Answer}}$
+
+A Table Lock is a database mechanism that locks an entire table to prevent other transactions from modifying or accessing its data concurrently, ensuring data consistency during bulk operations.
+
+</details>
+
+<details>
+<summary><b><i>9.Your database performs slowly than usual. More specifically, your queries are taking a lot of time. What would you do?</i></b></summary>
+
+$\color{green}{\text{Answer}}$
+
+- Query for running queries and cancel the irrelevant queries
+- Check for connection leaks (query for running connections and include their IP)
+- Check for table locks and kill irrelevant locking sessions
+
+</details>
+
+<details>
+<summary><b><i>10.What is a Data Warehouse?</i></b></summary>
+
+$\color{green}{\text{Answer}}$
+
+A data warehouse is a subject-oriented, integrated, time-variant and non-volatile collection of data in support of organisation's decision-making process.
+
+</details>
+
+<details>
+<summary><b><i>11.Explain what is a time-series database.</i></b></summary>
+
+$\color{green}{\text{Answer}}$
+
+A time-series database (TSDB) is a software system optimized for storing, querying, and analyzing large volumes of time-stamped data, such as metrics, logs, or sensor readings, tracked over time.
+
+</details>
+
+
