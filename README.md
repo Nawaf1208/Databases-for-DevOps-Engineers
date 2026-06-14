@@ -129,4 +129,111 @@ A time-series database (TSDB) is a software system optimized for storing, queryi
 
 </details>
 
+<details>
+<summary><b><i>12.What is OLTP (Online transaction processing)?</i></b></summary>
 
+$\color{green}{\text{Answer}}$
+
+OLTP (Online Transaction Processing) is a class of database systems optimized for managing and executing a high volume of fast, real-time data transactions (such as inserts, updates, and deletes) concurrently, typically used for day-to-day business operations like banking or e-commerce.
+
+</details>
+
+<details>
+<summary><b><i>13.What is OLAP (Online Analytical Processing)?</i></b></summary>
+
+$\color{green}{\text{Answer}}$
+
+OLAP (Online Analytical Processing) is a database system optimized for high-speed, complex analytical queries and data aggregation across large volumes of historical data, typically used for business intelligence, reporting, and decision-making.
+
+</details>
+
+<details>
+<summary><b><i>14.What is an index in a database?</i></b></summary>
+
+$\color{green}{\text{Answer}}$
+
+A database index is a data structure that improves the speed of operations in a table. Indexes can be created using one or more columns, providing the basis for both rapid random lookups and efficient ordering of access to records.
+
+</details>
+
+<details>
+<summary><b><i>15.What data types are there in relational databases?</i></b></summary>
+
+$\color{green}{\text{Answer}}$
+
+Relational databases primarily use: 
+- numeric (e.g., INT, FLOAT)
+- character/string (e.g., VARCHAR, CHAR)
+- date and time (e.g., TIMESTAMP, DATE)
+- binary/boolean (e.g., BLOB, BOOLEAN)
+
+</details>
+
+<details>
+<summary><b><i>16.Explain Normalization.</i></b></summary>
+
+$\color{green}{\text{Answer}}$
+
+Data that is used multiple times in a database should be stored once and referenced with a foreign key.
+
+This has the clear benefit of ease of maintenance where you need to change a value only in a single place to change it everywhere.
+
+</details>
+
+<details>
+<summary><b><i>17.Explain Primary Key and Foreign Key.</i></b></summary>
+
+$\color{green}{\text{Answer}}$
+
+<b>Primary Key</b>: each row in every table should a unique identifier that represents the row.
+
+<b>Foreign Key</b>: a reference to another table's primary key. This allows you to join table together to retrieve all the information you need without duplicating data.
+
+</details>
+
+<details>
+<summary><b><i>18.What types of data tables have you used?</i></b></summary>
+
+$\color{green}{\text{Answer}}$
+
+- Primary data table: main data you care about
+- Details table: includes a foreign key and has one to many relationship
+- Lookup values table: can be one table per lookup or a table containing all the lookups and has one to many relationship Multi reference table
+
+</details>
+
+<details>
+<summary><b><i>19.What is ORM? What benefits it provides in regards to relational databases usage?</i></b></summary>
+
+$\color{green}{\text{Answer}}$
+
+ORM is a programming technique for converting data between incompatible type systems using object-oriented programming languages.
+
+In regards to the relational databases:
+- Database as code
+- Database abstraction
+- Encapsulates SQL complexity
+- Enables code review process
+- Enables usage as a native OOP structure
+
+</details>
+
+<details>
+<summary><b><i>20.What is DDL?</i></b></summary>
+
+$\color{green}{\text{Answer}}$
+
+Data Definition or Data Description Language (DDL) is a syntax for creating and modifying database objects such as tables, indices, and users.
+
+</details>
+
+## Time Series
+
+<details>
+<summary><b><i>21.What is Time Series database?</i></b></summary>
+
+$\color{green}{\text{Answer}}$
+
+A database designed specifically for time series based data.
+
+</details>
